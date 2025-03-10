@@ -4,7 +4,7 @@ const PORT = 3040;
 const WebSocket = require('ws');
 
 const server = app.listen(PORT, () => {
-    console.log("server running");
+    console.log("server running listening on port http://localhost:3040/");
 });
 
 const Wss = new WebSocket.Server({ server });
